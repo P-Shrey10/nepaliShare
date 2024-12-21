@@ -1,50 +1,31 @@
-# React + TypeScript + Vite
+Nepali Share 📈
+Nepali Share is a modern web application built with React 19 and Node.js 21.7.3. The project leverages cutting-edge technologies to deliver a seamless and engaging user experience for managing and analyzing stock market data specific to Nepal.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+🚀 Features
+📊 Real-time Stock Market Data: View and analyze the latest stock prices and trends.
+🛠 Modern UI/UX: Powered by Tailwind CSS and React 19 for a sleek and responsive interface.
+🔍 Advanced Search and Filter: Quickly find stocks and other market data.
+🌐 Localization: Support for multiple languages (including Nepali) with i18next.
+⚡ Optimized Performance: Built with Vite for lightning-fast builds and development.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+🛠️ Tech Stack
+Frontend: React 19, React Router, Tailwind CSS, Axios, React Toastify, Framer Motion
+Backend: Node.js 21.7.3 (for API consumption and server-side logic)
+Build Tool: Vite
+State Management: React Query and Zustand
+Form Validation: Formik and Yup
+Error Handling: React Error Boundary
+Internationalization: React-i18next
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+📚 Getting Started
+Follow these instructions to set up and run the project locally.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Prerequisites
+Ensure you have the following installed:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Node.js: Version 21.7.3 or later
+npm: Comes bundled with Node.js
+Git: For version control
